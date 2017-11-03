@@ -1,0 +1,126 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Comp.master.cs" Inherits="Comp229_Assign01.Comp" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Comp229-Assign01</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header> 
+  <!-- nav bar starts here-->
+  <nav class="navbar navbar-color">
+    <div class="container">
+        <div class="logo_outer"> <a href="default.aspx"><img class="logo-style" src="images/logo.png"/></a></div>
+        <div class="navbar_outer">
+          <div class="nav-bar">
+           <ul class="nav navbar-nav nav-text">
+                          <li class="nav-item"><a href="default.aspx">Home</a></li>
+                <li class="nav-item"><a href="Course.aspx">Course Page</a></li>
+       
+              </ul>
+          </div>
+        </div>
+    </div>
+  </nav>
+  <!-- nav bar ends here--> 
+</header>
+     
+   
+           <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <div class="footer-upper">
+            <div class="container">
+                    <!--Footer Column-->
+                	<div class="footer-sections">
+                        <div class="footer-widget about-widget">
+                            <div class="footer-logo"><a href="index.html"><img src="images/footer-logo.png" alt=""/></a></div>
+                            <div class="text">
+                            	<p>Vestibulum facilisis rhoncus tempor. Duis non ipsum volutpat, rhoat nacus nisi sed, pulvinar ex.</p>
+                                <p>Etiam sit amet libero consea typoe, convallis odio estibulum urna.</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                    <!--Footer Column-->
+                    <div class="footer-sections">
+                        <div class="footer-widget info-widget">
+                        	<h2>KEEP IN TOUCH</h2>
+                            <ul class="info">
+                            	<li>Address : 44 New Design Street, Down Town,  Melbourne 005</li>
+                                <li>Phone :  800 433 633 (or) 452 23 4354</li>
+                                <li>Email : abc@Example.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    
+                    <!--Footer Column-->
+                    <div class="footer-sections">
+                    	<div class="footer-widget gallery-widget">
+                            <h2>Instagram Feed</h2>	
+                            <div class="clearfix">
+                                <div class="image"><img src="images/footer-gallery-1.jpg" alt=""/></div>
+                                <div class="image"><img src="images/footer-gallery-2.jpg" alt=""/></div>
+                                <div class="image"><img src="images/footer-gallery-3.jpg" alt=""/></div>
+                                <div class="image"><img src="images/footer-gallery-4.jpg" alt=""/></div>
+                                <div class="image"><img src="images/footer-gallery-5.jpg" alt=""/></div>
+                                <div class="image"><img src="images/footer-gallery-6.jpg" alt=""/></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!--Footer Column-->
+                    <div class="footer-sections padd-left-60">
+                    	<div class="footer-widget links-widget">
+                        <h2>Featured links</h2>
+                        	
+                            	<div class="links-widget-list">
+                                    <ul>
+                                        <li><a href="AboutUs.html">About</a></li>
+                                        <li><a href="Reservations.html">Reservations</a></li>
+                                        <li><a href="OurChefs.html">Our Chefs</a></li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="links-widget-list">
+                                    <ul>
+                                        <li><a href="whatwedo.html`">What We Do</a></li>
+                                        <li><a href="Menus.html">Menus</a></li>
+                                        <li><a href="#">Our  Careere</a></li>
+                                    </ul>
+                                </div>    
+                            <div class="social-links">
+                            	<h3>Follow Us On:</h3>
+                                <div class="links">
+                                    <a href="#" style="margin:0;"><span class="fa fa-facebook-official"></span></a>
+                                    <a href="#"><span class="fa fa-twitter"></span></a>
+                                    <a href="#"><span class="fa fa-google-plus"></span></a>
+                                    <a href="#"><span class="fa fa-instagram"></span></a>
+                                    <a href="#"><span class="fa fa-vimeo-square"></span></a>
+                                    <a href="#"><span class="fa fa-youtube-play"></span></a>
+                                    <a href="#"><span class="fa fa-dropbox"></span></a>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>       
+            </div>
+        </div>      
+        
+        <!--Footer Bottom-->
+    	<div class="footer-bottom">
+            <div class="container"> 
+                <!--Copyright-->
+                <div class="copyright">Copyrights &copy; Harmeet 2017. All rights reserved.</div> 
+            </div>
+        </div>
+
+    </form>
+</body>
+</html>

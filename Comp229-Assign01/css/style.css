@@ -1,0 +1,811 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*navbar style starts here*/
+
+body
+{
+	margin:0;
+	padding:0;
+	font-family:"Open Sans", sans-serif;
+}
+.container
+{
+	width:1170px;
+	margin:0 auto;
+}
+.marginRight10
+{
+	margin-right:10px;
+}
+
+.navbar_outer
+{
+	width:70%;
+	float:right;
+}
+.navbar
+{
+	position:relative;
+}
+.navbar-color
+{
+	background:#ba1917;
+	width:100%;
+	float:left;
+	border-radius:0px !important;
+	height:70px;
+	padding-top:10px;
+	
+}
+.nav
+{
+	list-style-type:none;
+	float:right;
+}
+.navbar-nav li
+{
+	float:left;
+	display:block;
+}
+.nav-text
+{
+	font-size:16px;
+	text-transform:capitalize;
+	color:#fff;
+	font-family:"Open Sans", sans-serif;
+}
+.nav-text li a
+{
+	color:#fff;
+	font-family:"Open Sans", sans-serif;
+	outline:none;
+	padding:10px 15px;
+	text-decoration:none;
+	
+}
+.nav-text > li > a:hover, .nav-text > li > a:focus
+{
+	background:#090003;
+	color:#fff !important;
+	border-radius:3px;
+}
+.logo_outer
+{
+	width:30%;
+	float:left;
+}
+.logo-style
+{
+	height: auto;
+    margin-top: 5px;
+}
+
+/*navbar style ends here*/
+
+/*top-slider starts here*/
+.static-banner
+{
+background:url(../images/banner-2-overlay.png) fixed center center / cover;
+height:600px;
+}
+.banner-content
+{
+	width:100%; 
+	height:300px; 
+	float:left; 
+	text-align:center;
+    
+}
+.banner-content:before
+{
+	content:""; 
+	display:inline-block; 
+	height:100%; 
+	vertical-align:middle;
+	}
+.banner-content .content-center{
+	display:inline-block; 
+	vertical-align:middle;
+	}
+.banner-img
+{
+	width:100%;
+	float:left;
+}
+.banner-new-text {
+   
+    text-align: center;
+	padding:120px 0;
+}
+.banner-new-text h1 {
+    color: #fff;
+    font-size: 60px;
+    font-weight:normal;
+    letter-spacing: -2px;
+    line-height: 1;
+    padding:10px;
+	font-family:Brush Script Std;
+	margin:0;
+}
+.banner-new-text h2 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: 30px;
+	text-align:justify;
+	width:800px;
+}
+
+.btn-default-red
+{
+	background:#ba1917;
+	border-radius:25px;
+	color:#fff;
+	padding:10px 25px !important;
+	font-size:18px !important;
+	font-family:Brush Script Std;
+	border:none;
+	margin-top:70px;
+	cursor:pointer;
+}
+.btn-default-red:hover
+{
+	background:#000;
+}
+/*top-slider ends here*/
+
+/*about content starts here*/
+.about-content
+{
+	width:100%;
+	float:left;
+	padding-bottom:40px;
+}
+.about-content h1
+{
+    color: #ba1917;
+    font-size: 50px;
+    font-weight: 600;
+    margin: 0;
+    padding: 60px 0 30px 0;	
+	font-family:Brush Script Std;
+	text-align:center;
+}
+.about-content p
+{
+	color: #a29c9c;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0;
+    padding-bottom: 10px;
+	text-align:justify;
+
+}
+.about-left-img
+{
+	float:left;
+	width:50%;
+}
+.about-right-content
+{
+	width:50%;
+	float:right;
+}
+.about-btn-style
+{
+	float:left;
+	margin-top:20px;
+}
+/*about content ends here*/
+
+/*special offers starts here*/
+.parallax {
+    background:url(../images/parallax1.jpg)  fixed no-repeat center center;
+    background-size:cover;
+    color:#FFF;
+	width:100%;
+	float:left;
+	padding-bottom:20px;
+}
+.parallax .inner {
+    padding:45px 0;
+}
+.inner h2
+{
+	font-size: 36px;
+    font-weight: 600;
+    line-height: 40px;
+    margin: 20px 0 15px 0;
+    text-transform: uppercase;
+	text-align:center;
+	font-family:Brush Script Std;
+}
+.Special-offers-content
+{
+	width:100%;
+	float:left;
+	text-align:center;
+	position:relative;
+}
+.offers-left-container
+{
+	float:left;
+	width:45%;
+	padding-left:20px;
+}
+.offers-right-container
+{
+	float:right;
+	width:45%;
+	padding-left:20px;
+}
+.img-outer
+{
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	display: inline-block;
+	height: auto;
+	line-height: 1.42857;
+	max-width: 100%;
+	padding: 4px;
+}
+.parallax h1, .parallax h2, .parallax h3, .parallax h4, .parallax h5, .parallax h6 {
+    color: #fff;
+}
+.pricing-item {
+    margin-bottom: 10px;
+    margin-top: 40px;
+    position: relative;
+}
+.pricing-item img {
+    float: left;
+    max-width: 250px;
+}
+.pricing-item-details {
+    margin-left: 275px;
+}
+.pricing-item-details h3 {
+    font-size: 22px;
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+.pricing-item-details h3 a:hover
+{
+	color:#ba1917;
+}
+.pricing-item-details a {
+    color: #fff;
+    font-weight: bold;
+	text-decoration:none;
+	float:left;
+	width:100%;
+	text-align:left;
+	font-size:20px;
+	padding-bottom:8px;
+}
+.pricing-item-details p
+{
+	font-size:14px;
+	line-height:21px;
+	text-align:justify;
+	margin:0 0 20px;
+}
+.pricing-item-details a.btn {
+    margin-top: 5px;
+}
+.pricing-item .hot-tag {
+    top:0;
+    left:0;
+    margin-top:-15px;
+    margin-left:-15px;
+    width:55px;
+    height:55px;
+    line-height:56px;
+    font-size:23px;
+    font-weight:700;
+    border: 4px solid white;
+}
+.hot-tag {
+    position:absolute;
+    bottom:0;
+    right:0;
+    z-index:15;
+    display:inline-block;
+    width:80px;
+    height:80px;
+    line-height:90px;
+    text-align:center;
+    font-weight:700;
+    color:#fff;
+    border-radius:100px;
+}
+.br-red {
+    background-color:#ed0121 !important;
+}
+.br-lblue {
+    background-color:#32c8de !important;
+}
+.br-green {
+    background-color:#51d466 !important;
+}
+.orderNow-btn
+{
+	background:#ba1917;
+	border-radius:3px;
+	border:none;
+	font-size:16px !important;
+	font-weight:600 !important;
+	padding:8px 12px;
+	width:30% !important;
+	font-family:open sans sans-serif;
+}
+.orderNow-btn:hover
+{
+	background:#fff;
+	color:#000;
+}
+.clear
+{
+	clear:both;
+}
+
+/*special offers ends here*/
+
+/*footer section starts here*/
+.footer-style-one .footer-upper 
+{
+    padding: 100px 0 50px;
+    position: relative;
+}
+.footer-content-outer
+{
+	width:100%;
+	float:left;
+}
+.footer-sections
+{
+	width:24%;
+	float:left;
+	margin-right:10px;
+
+}
+section, footer { clear: both;}
+.about-widget .footer-logo 
+{
+    margin: -5px 0 0px;
+    position: relative;
+}
+.text 
+{
+    font-size: 14px;
+    line-height: 1.8em;
+    margin-bottom: 20px;
+	font-family:"Open Sans", sans-serif;
+	color:#777;
+}
+.text  p
+{
+	margin-top:8px;
+}
+.info
+{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+.info-widget h2, .gallery-widget h2, .links-widget h2
+{
+	font-size:14px;
+	margin-bottom:20px;
+}
+
+.info-widget li {
+    line-height: 1.8em;
+    margin-bottom: 15px;
+    position: relative;
+	color:#777;
+	font-size:14px;
+	
+}
+.footer-upper
+{
+	float: left;
+    padding: 50px 0;
+    width: 100%;
+}
+.footer-upper .gallery-widget {
+    position: relative;
+}
+.footer-upper .gallery-widget .image {
+    float: left;
+    padding: 0 5px 5px 0;
+    position: relative;
+    width: 30.333%;
+}
+.footer-upper .gallery-widget .image img {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+.footer-upper .links-widget-list ul
+{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	width:50%;
+	float:left;
+}
+.footer-upper .links-widget li {
+    margin-bottom: 7px;
+    position: relative;
+}
+.footer-upper .links-widget li a {
+    color: #777777;
+    display: block;
+    font-size: 13px;
+    line-height: 24px;
+    position: relative;
+	text-decoration:none;
+}
+.footer-upper .links-widget li a:hover {
+    color: #f5b062;
+}
+.footer-upper .social-links h3 {
+    color: #333;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 7px;
+    text-transform: uppercase;
+}
+.footer-upper .social-links a
+{
+    color: #777;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 24px;
+    margin-right: 12px;
+    position: relative;
+    text-align: center;
+	cursor:pointer;
+}
+.footer-bottom {
+    background: #f8f8f8;
+    color: #aaa;
+    font-size: 14px;
+    padding: 25px 0;
+    text-align: center;
+	clear:both;
+}
+.footer-bottom .copyright {
+    font-weight: 400;
+    line-height: 30px;
+    position: relative;
+}
+/*footer section ends here*/
+
+/*Menus section starts here*/
+.parallax_menus
+{
+    background:url(../images/bg-big-1.jpg) fixed no-repeat center center;
+    background-size:cover;
+    color:#FFF;
+	width:100%;
+	float:left;
+	padding-bottom:20px;
+}
+.parallax_menus.inner {
+    padding:45px 0;
+}
+.parallax_menus.inner h2
+{
+	font-size: 36px;
+    font-weight: 600;
+    line-height: 40px;
+    margin: 20px 0 15px 0;
+    text-transform: uppercase;
+	text-align:center;
+	font-family:Brush Script Std;
+	color:#ba1917;
+}
+.parallax_menus.inner p.sub-text
+{
+	font-size:14px;
+	color:#ff;
+	text-align:center;
+}
+.MenusPics_outer
+{
+	float:left;
+	width:97%;
+	margin:20px 40px;
+}
+.Menus_Items
+{
+	background: #fff;
+    border-radius: 6px;
+    float: left;
+    margin-right: 2%;
+    width: 22%;
+}
+.Menu-List
+{
+	width:100%;
+	float:left;
+	padding-bottom:20px;
+	box-shadow:3px 3px 5px #000;
+	
+}
+.Menu-List img
+{
+	border-radius: 6px 6px 0 0;
+    height: 170px;
+    overflow: hidden;
+    width: 250px;
+}
+.dishes-name
+{
+  font-size:16px;
+  color:#ba1917;
+  float:left;
+  padding:10px;
+
+}
+.Menu-List p
+{
+	font-size:13px;
+	text-align:justify;
+	color:#777;
+	float:left;
+	margin:0;
+	padding:0 10px;
+}
+.dishes-price-btn
+{
+    background: #ba1917;
+    border: none;
+    border-radius: 18px;
+    float: left;
+    font-family: open sans sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 6px 10px;
+    padding: 8px 20px;
+}
+.dishes-price-btn:hover
+{
+	 background: #000;
+	 color:#fff;
+	 cursor:pointer;
+}
+/*Menus section ends here*/
+
+/*Reservations section starts here*/
+.grey_background
+{
+	background:#eee;
+	width:100%;
+	float:left;
+	padding:20px 0;
+	
+}
+.Reservation_section
+{
+	text-align:center;
+}
+.Reservation_section h2
+{
+	color:#ba1917;
+	font-size: 36px;
+    font-weight: 600;
+    line-height: 40px;
+    margin: 20px 0 15px 0;
+    text-align:center;
+	font-family:Brush Script Std;
+	
+}
+.Reservation_form_outer
+{
+	width:100%;
+	float:left;
+}
+.Reservation-left
+{
+	width:30%;
+	float:left;
+}
+.Reservation_right
+{
+	width:70%;
+	float:left;
+}
+.bg-1 
+{
+    background-color: #fecc17;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+	float:left;
+}
+.phone-numbers-wrapper
+{
+	float: left;
+    margin-top:20px;
+    width: 100%;
+}
+.phone-numbers {
+    margin-left: 10px;
+    padding-left: 13px;
+	display:table-cell;
+	padding-top:5px;
+}
+.Reservation-left i
+{
+	color:#fff;
+	line-height:70px;
+	font-size:35px;
+}
+.Reservation-left h4
+{
+	font-size:24px;
+	color:#333;
+	margin:0;
+}
+.Reservation-left p
+{
+	color:#777;
+	font-size:16px;
+	margin:0;
+	text-align:left;
+}
+.bg-2 {
+    background-color: #ccdb38;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+	float:left;
+}
+.contact-form {
+    margin: 8px 0 9px !important;
+    padding-bottom: 10px;
+}
+.form-group
+{
+	margin-bottom:15px;
+}
+.contact-form .form-control
+{
+	color: #777;
+    font-size: 16px;
+    font-weight: normal;
+    height: 38px;
+    line-height: 1.42857;
+    padding: 7px 0;
+	display:block;
+	width:100%;
+	border:none;
+	border-bottom:1px solid #777;
+	background:none;
+}
+.left-side
+{
+	float:left;
+	width:48%;
+}
+.right-side
+{
+	float:right;
+	width:50%;
+}
+.Book-table-btn-outer
+{
+ float:left;
+ width:100%;
+ text-align:left;
+}
+.book-tbl-btn
+{
+	background: #ba1917 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 25px;
+    color: #fff;
+    cursor: pointer;
+    font-family: Brush Script Std;
+    font-size: 18px;
+    padding: 10px 25px;
+}
+.book-tbl-btn:hover
+{
+	background:#000;
+	color:#fff;
+}
+/*Reservations section ends here*/
+
+/*what we do section starts here*/
+.WhatWeDo-outer
+{
+	padding:40px 0;
+}
+.Image_content
+{
+	float:left;
+	width:48%;
+	margin-right:10px;
+}
+.Right_content
+{
+	float:right;
+	width:48%
+}
+.Right_content h3
+{
+	font-size:16px;
+	color:#777;
+	margin:0;
+}
+.Right_content p
+{
+	font-size:14px;
+	color:#777;
+	margin:5px 0;
+	line-height:23px;
+}
+/*what we do section ends here*/
+
+/*Our chefs container starts here*/
+.Our_chefs h2
+{
+	color:#ba1917;
+	font-size: 36px;
+    font-weight: 600;
+    line-height: 40px;
+    margin: 20px 0 15px 0;
+    text-align:center;
+	font-family:Brush Script Std;
+}
+.Our_chefs p
+{
+	font-size:16px;
+	color:#fff;
+	text-align:center;
+}
+.chef-img-outer
+{
+	width:30%;
+	float:left;
+	margin-right:20px;
+	background:#fff;
+}
+.chef-img-outer img
+{
+	width:99%;
+	float:left;
+	margin:1%;
+}
+.chef-img-outer h3
+{
+	font-size:18px;
+	color:#ff;
+	text-align:left;
+	color:#ba1917;
+	margin:30px 0 0 10px
+}
+.chef-img-outer p
+{
+	font-size:14px;
+	text-align:left;
+	color:#777;
+	padding:10px;
+	margin:0;
+}
+.required  {
+   padding-right: 25px;
+   background-image: url(...);
+   background-position: right top;
+}
+/*Our chefs container ends here*/
+
+
+
