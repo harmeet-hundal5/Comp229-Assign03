@@ -23,7 +23,7 @@ namespace Comp229_Assign01
                 Session["Studentidr"] = Request.QueryString["code"];
                 if (!IsPostBack)
                 {
-                    SqlConnection s = new SqlConnection("Data Source=.;Initial Catalog=Comp229Assign03;Integrated Security=True");
+                    SqlConnection s = new SqlConnection("Data Source=.\\SQLEXPRESS;Initial Catalog=Comp229Assign03;Integrated Security=True");
                     s.Open();
                     SqlCommand sd = new SqlCommand("select Courses.CourseID, Students.StudentID,Students.LastName,Students.FirstMidName,Courses.Title,Enrollments.EnrollmentID from students inner join  Enrollments on students.StudentID=Enrollments.StudentID inner join Courses on Enrollments.CourseID=Courses.CourseID where students.StudentID='" + StudentiD + "'", s);
                     SqlDataReader dr = sd.ExecuteReader();

@@ -1,7 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comp229-Assign01", "Comp229-Assign01.\Comp229-Assign01.csproj", "{523B086F-2481-4D3E-8B56-E3D130E003DF}"
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comp229-Assign01", "Comp229-Assign01\Comp229-Assign01.csproj", "{523B086F-2481-4D3E-8B56-E3D130E003DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,5 +18,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C181F1F9-98D9-4C43-B69C-D27A05A7D870}
 	EndGlobalSection
 EndGlobal
